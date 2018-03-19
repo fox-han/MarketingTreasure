@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "HomeViewController.h"
 
 @interface ViewController ()
 
@@ -17,6 +18,15 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+}
+
+- (IBAction)homeVCAction:(UIButton *)sender {
+    
+    HomeViewController *homeVC = [[HomeViewController alloc] init];
+    
+    [self.navigationController pushViewController:homeVC animated:YES];
+//    [self presentViewController:homeVC animated:YES completion:nil];
+    
 }
 
 

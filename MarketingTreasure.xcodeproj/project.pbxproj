@@ -15,6 +15,52 @@
 		FA0072B520590C930059F443 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FA0072B420590C930059F443 /* main.m */; };
 		FA0072BF20590C940059F443 /* MarketingTreasureTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA0072BE20590C940059F443 /* MarketingTreasureTests.m */; };
 		FA0072CA20590C940059F443 /* MarketingTreasureUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA0072C920590C940059F443 /* MarketingTreasureUITests.m */; };
+		FA0072DF205916650059F443 /* MarketingNavigationView.m in Sources */ = {isa = PBXBuildFile; fileRef = FA0072DE205916650059F443 /* MarketingNavigationView.m */; };
+		FA0072E3205917AF0059F443 /* UIColor+ZSKNColor.m in Sources */ = {isa = PBXBuildFile; fileRef = FA0072E1205917AE0059F443 /* UIColor+ZSKNColor.m */; };
+		FA0072E6205918B10059F443 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = FA0072E5205918B10059F443 /* UIView+Extension.m */; };
+		FA0072F8205946800059F443 /* SDCycleScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = FA0072EC205946800059F443 /* SDCycleScrollView.m */; };
+		FA0072F9205946800059F443 /* UIView+SDExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = FA0072ED205946800059F443 /* UIView+SDExtension.m */; };
+		FA0072FA205946800059F443 /* SDCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FA0072EE205946800059F443 /* SDCollectionViewCell.m */; };
+		FA0072FB205946800059F443 /* TADotView.m in Sources */ = {isa = PBXBuildFile; fileRef = FA0072F1205946800059F443 /* TADotView.m */; };
+		FA0072FC205946800059F443 /* TAPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = FA0072F2205946800059F443 /* TAPageControl.m */; };
+		FA0072FD205946800059F443 /* TAAnimatedDotView.m in Sources */ = {isa = PBXBuildFile; fileRef = FA0072F3205946800059F443 /* TAAnimatedDotView.m */; };
+		FA0072FE205946800059F443 /* TAAbstractDotView.m in Sources */ = {isa = PBXBuildFile; fileRef = FA0072F4205946800059F443 /* TAAbstractDotView.m */; };
+		FA0073012059591A0059F443 /* NSString+StringHeight.m in Sources */ = {isa = PBXBuildFile; fileRef = FA007300205959190059F443 /* NSString+StringHeight.m */; };
+		FA00730520595D790059F443 /* ActivityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA00730420595D790059F443 /* ActivityViewController.m */; };
+		FA00730B2059703A0059F443 /* GetFinishViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA00730A2059703A0059F443 /* GetFinishViewController.m */; };
+		FA1D30E3205AAE16001D447D /* GiftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA1D30E2205AAE16001D447D /* GiftViewController.m */; };
+		FA5A2359205B8DDC00F29764 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA5A2350205B8DDC00F29764 /* HomeViewController.m */; };
+		FA5A235B205B8DDC00F29764 /* TestTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA5A2355205B8DDC00F29764 /* TestTableViewCell.xib */; };
+		FA5A235C205B8DDC00F29764 /* TestTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FA5A2356205B8DDC00F29764 /* TestTableViewCell.m */; };
+		FA5A235D205B8DDC00F29764 /* PrepaidViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA5A2357205B8DDC00F29764 /* PrepaidViewController.m */; };
+		FA5A2367205B914800F29764 /* MTBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA5A2366205B914800F29764 /* MTBaseViewController.m */; };
+		FABE8103205D01AF0099CE41 /* OrderTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FA95BA6D205CF1D500D19EDA /* OrderTableViewCell.m */; };
+		FABE8104205D01BB0099CE41 /* OrderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA5A2369205B91AC00F29764 /* OrderViewController.m */; };
+		FABE8105205D01C50099CE41 /* OrderTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA95BA6E205CF1D500D19EDA /* OrderTableViewCell.xib */; };
+		FABE8108205D0D8F0099CE41 /* OrderDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FABE8107205D0D8F0099CE41 /* OrderDetailViewController.m */; };
+		FABE810C205D0E450099CE41 /* OrderDetailTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FABE810A205D0E450099CE41 /* OrderDetailTableViewCell.m */; };
+		FABE810D205D0E450099CE41 /* OrderDetailTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FABE810B205D0E450099CE41 /* OrderDetailTableViewCell.xib */; };
+		FABE8112205D160B0099CE41 /* MyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FABE8110205D160B0099CE41 /* MyViewController.m */; };
+		FABE8116205D17B10099CE41 /* MyTopView.m in Sources */ = {isa = PBXBuildFile; fileRef = FABE8115205D17B10099CE41 /* MyTopView.m */; };
+		FABE8118205D17BE0099CE41 /* MyTopView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FABE8117205D17BE0099CE41 /* MyTopView.xib */; };
+		FABE811B205DFA8E0099CE41 /* PaymentCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FABE811A205DFA8E0099CE41 /* PaymentCodeViewController.m */; };
+		FABE811E205DFC260099CE41 /* UIView+UIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FABE811C205DFC260099CE41 /* UIView+UIViewController.m */; };
+		FABE8122205E003B0099CE41 /* PayRecordsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FABE8121205E003B0099CE41 /* PayRecordsViewController.m */; };
+		FABE8126205E01C80099CE41 /* PayRecordsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FABE8124205E01C80099CE41 /* PayRecordsTableViewCell.m */; };
+		FABE8127205E01C80099CE41 /* PayRecordsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FABE8125205E01C80099CE41 /* PayRecordsTableViewCell.xib */; };
+		FABE812A205E09D40099CE41 /* CouponsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FABE8129205E09D40099CE41 /* CouponsViewController.m */; };
+		FABE812E205E0B180099CE41 /* CouponsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FABE812C205E0B180099CE41 /* CouponsTableViewCell.m */; };
+		FABE812F205E0B180099CE41 /* CouponsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FABE812D205E0B180099CE41 /* CouponsTableViewCell.xib */; };
+		FABE8133205E1D2C0099CE41 /* MyPrivilegeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FABE8132205E1D2C0099CE41 /* MyPrivilegeViewController.m */; };
+		FABE8137205E1DED0099CE41 /* MyPrivilegeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FABE8135205E1DED0099CE41 /* MyPrivilegeTableViewCell.m */; };
+		FABE8138205E1DED0099CE41 /* MyPrivilegeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FABE8136205E1DED0099CE41 /* MyPrivilegeTableViewCell.xib */; };
+		FABE813C205EA87A0099CE41 /* IntegralViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FABE813B205EA87A0099CE41 /* IntegralViewController.m */; };
+		FABE8140205EA8950099CE41 /* IntegralTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FABE813E205EA8950099CE41 /* IntegralTableViewCell.m */; };
+		FABE8141205EA8950099CE41 /* IntegralTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FABE813F205EA8950099CE41 /* IntegralTableViewCell.xib */; };
+		FABE8147205EAACE0099CE41 /* MTBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FABE8146205EAACE0099CE41 /* MTBaseModel.m */; };
+		FABE814A205EAB100099CE41 /* IntegralModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FABE8149205EAB100099CE41 /* IntegralModel.m */; };
+		FABE814D205EAED40099CE41 /* IntegDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FABE814C205EAED40099CE41 /* IntegDetailViewController.m */; };
+		FABE8150205EB5AA0099CE41 /* CashPaymentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FABE814F205EB5AA0099CE41 /* CashPaymentViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +97,92 @@
 		FA0072C520590C940059F443 /* MarketingTreasureUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarketingTreasureUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA0072C920590C940059F443 /* MarketingTreasureUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MarketingTreasureUITests.m; sourceTree = "<group>"; };
 		FA0072CB20590C940059F443 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA0072DD205916650059F443 /* MarketingNavigationView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MarketingNavigationView.h; sourceTree = "<group>"; };
+		FA0072DE205916650059F443 /* MarketingNavigationView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MarketingNavigationView.m; sourceTree = "<group>"; };
+		FA0072E0205917150059F443 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		FA0072E1205917AE0059F443 /* UIColor+ZSKNColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+ZSKNColor.m"; sourceTree = "<group>"; };
+		FA0072E2205917AE0059F443 /* UIColor+ZSKNColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+ZSKNColor.h"; sourceTree = "<group>"; };
+		FA0072E4205918B10059F443 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		FA0072E5205918B10059F443 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		FA0072E720591AC20059F443 /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		FA0072E9205946800059F443 /* UIView+SDExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SDExtension.h"; sourceTree = "<group>"; };
+		FA0072EA205946800059F443 /* SDCycleScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDCycleScrollView.h; sourceTree = "<group>"; };
+		FA0072EB205946800059F443 /* SDCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDCollectionViewCell.h; sourceTree = "<group>"; };
+		FA0072EC205946800059F443 /* SDCycleScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDCycleScrollView.m; sourceTree = "<group>"; };
+		FA0072ED205946800059F443 /* UIView+SDExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SDExtension.m"; sourceTree = "<group>"; };
+		FA0072EE205946800059F443 /* SDCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDCollectionViewCell.m; sourceTree = "<group>"; };
+		FA0072F0205946800059F443 /* TAAbstractDotView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAAbstractDotView.h; sourceTree = "<group>"; };
+		FA0072F1205946800059F443 /* TADotView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TADotView.m; sourceTree = "<group>"; };
+		FA0072F2205946800059F443 /* TAPageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAPageControl.m; sourceTree = "<group>"; };
+		FA0072F3205946800059F443 /* TAAnimatedDotView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAAnimatedDotView.m; sourceTree = "<group>"; };
+		FA0072F4205946800059F443 /* TAAbstractDotView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAAbstractDotView.m; sourceTree = "<group>"; };
+		FA0072F5205946800059F443 /* TADotView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TADotView.h; sourceTree = "<group>"; };
+		FA0072F6205946800059F443 /* TAAnimatedDotView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAAnimatedDotView.h; sourceTree = "<group>"; };
+		FA0072F7205946800059F443 /* TAPageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAPageControl.h; sourceTree = "<group>"; };
+		FA0072FF205959190059F443 /* NSString+StringHeight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+StringHeight.h"; sourceTree = "<group>"; };
+		FA007300205959190059F443 /* NSString+StringHeight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+StringHeight.m"; sourceTree = "<group>"; };
+		FA00730320595D790059F443 /* ActivityViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ActivityViewController.h; sourceTree = "<group>"; };
+		FA00730420595D790059F443 /* ActivityViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ActivityViewController.m; sourceTree = "<group>"; };
+		FA0073092059703A0059F443 /* GetFinishViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GetFinishViewController.h; sourceTree = "<group>"; };
+		FA00730A2059703A0059F443 /* GetFinishViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GetFinishViewController.m; sourceTree = "<group>"; };
+		FA1D30E1205AAE16001D447D /* GiftViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GiftViewController.h; sourceTree = "<group>"; };
+		FA1D30E2205AAE16001D447D /* GiftViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GiftViewController.m; sourceTree = "<group>"; };
+		FA5A2350205B8DDC00F29764 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		FA5A2351205B8DDC00F29764 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		FA5A2354205B8DDC00F29764 /* PrepaidViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrepaidViewController.h; sourceTree = "<group>"; };
+		FA5A2355205B8DDC00F29764 /* TestTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestTableViewCell.xib; sourceTree = "<group>"; };
+		FA5A2356205B8DDC00F29764 /* TestTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestTableViewCell.m; sourceTree = "<group>"; };
+		FA5A2357205B8DDC00F29764 /* PrepaidViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrepaidViewController.m; sourceTree = "<group>"; };
+		FA5A2358205B8DDC00F29764 /* TestTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestTableViewCell.h; sourceTree = "<group>"; };
+		FA5A2365205B914800F29764 /* MTBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTBaseViewController.h; sourceTree = "<group>"; };
+		FA5A2366205B914800F29764 /* MTBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTBaseViewController.m; sourceTree = "<group>"; };
+		FA5A2368205B91AC00F29764 /* OrderViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OrderViewController.h; sourceTree = "<group>"; };
+		FA5A2369205B91AC00F29764 /* OrderViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OrderViewController.m; sourceTree = "<group>"; };
+		FA95BA6C205CF1D500D19EDA /* OrderTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OrderTableViewCell.h; sourceTree = "<group>"; };
+		FA95BA6D205CF1D500D19EDA /* OrderTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OrderTableViewCell.m; sourceTree = "<group>"; };
+		FA95BA6E205CF1D500D19EDA /* OrderTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OrderTableViewCell.xib; sourceTree = "<group>"; };
+		FABE8106205D0D8F0099CE41 /* OrderDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OrderDetailViewController.h; sourceTree = "<group>"; };
+		FABE8107205D0D8F0099CE41 /* OrderDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OrderDetailViewController.m; sourceTree = "<group>"; };
+		FABE8109205D0E450099CE41 /* OrderDetailTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OrderDetailTableViewCell.h; sourceTree = "<group>"; };
+		FABE810A205D0E450099CE41 /* OrderDetailTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OrderDetailTableViewCell.m; sourceTree = "<group>"; };
+		FABE810B205D0E450099CE41 /* OrderDetailTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OrderDetailTableViewCell.xib; sourceTree = "<group>"; };
+		FABE810F205D160B0099CE41 /* MyViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyViewController.h; sourceTree = "<group>"; };
+		FABE8110205D160B0099CE41 /* MyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyViewController.m; sourceTree = "<group>"; };
+		FABE8114205D17B10099CE41 /* MyTopView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyTopView.h; sourceTree = "<group>"; };
+		FABE8115205D17B10099CE41 /* MyTopView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyTopView.m; sourceTree = "<group>"; };
+		FABE8117205D17BE0099CE41 /* MyTopView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyTopView.xib; sourceTree = "<group>"; };
+		FABE8119205DFA8E0099CE41 /* PaymentCodeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PaymentCodeViewController.h; sourceTree = "<group>"; };
+		FABE811A205DFA8E0099CE41 /* PaymentCodeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PaymentCodeViewController.m; sourceTree = "<group>"; };
+		FABE811C205DFC260099CE41 /* UIView+UIViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+UIViewController.m"; sourceTree = "<group>"; };
+		FABE811D205DFC260099CE41 /* UIView+UIViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+UIViewController.h"; sourceTree = "<group>"; };
+		FABE8120205E003B0099CE41 /* PayRecordsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PayRecordsViewController.h; sourceTree = "<group>"; };
+		FABE8121205E003B0099CE41 /* PayRecordsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PayRecordsViewController.m; sourceTree = "<group>"; };
+		FABE8123205E01C80099CE41 /* PayRecordsTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PayRecordsTableViewCell.h; sourceTree = "<group>"; };
+		FABE8124205E01C80099CE41 /* PayRecordsTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PayRecordsTableViewCell.m; sourceTree = "<group>"; };
+		FABE8125205E01C80099CE41 /* PayRecordsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PayRecordsTableViewCell.xib; sourceTree = "<group>"; };
+		FABE8128205E09D40099CE41 /* CouponsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CouponsViewController.h; sourceTree = "<group>"; };
+		FABE8129205E09D40099CE41 /* CouponsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CouponsViewController.m; sourceTree = "<group>"; };
+		FABE812B205E0B180099CE41 /* CouponsTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CouponsTableViewCell.h; sourceTree = "<group>"; };
+		FABE812C205E0B180099CE41 /* CouponsTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CouponsTableViewCell.m; sourceTree = "<group>"; };
+		FABE812D205E0B180099CE41 /* CouponsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CouponsTableViewCell.xib; sourceTree = "<group>"; };
+		FABE8131205E1D2C0099CE41 /* MyPrivilegeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyPrivilegeViewController.h; sourceTree = "<group>"; };
+		FABE8132205E1D2C0099CE41 /* MyPrivilegeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyPrivilegeViewController.m; sourceTree = "<group>"; };
+		FABE8134205E1DED0099CE41 /* MyPrivilegeTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyPrivilegeTableViewCell.h; sourceTree = "<group>"; };
+		FABE8135205E1DED0099CE41 /* MyPrivilegeTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyPrivilegeTableViewCell.m; sourceTree = "<group>"; };
+		FABE8136205E1DED0099CE41 /* MyPrivilegeTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyPrivilegeTableViewCell.xib; sourceTree = "<group>"; };
+		FABE813A205EA87A0099CE41 /* IntegralViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IntegralViewController.h; sourceTree = "<group>"; };
+		FABE813B205EA87A0099CE41 /* IntegralViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IntegralViewController.m; sourceTree = "<group>"; };
+		FABE813D205EA8950099CE41 /* IntegralTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IntegralTableViewCell.h; sourceTree = "<group>"; };
+		FABE813E205EA8950099CE41 /* IntegralTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IntegralTableViewCell.m; sourceTree = "<group>"; };
+		FABE813F205EA8950099CE41 /* IntegralTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = IntegralTableViewCell.xib; sourceTree = "<group>"; };
+		FABE8145205EAACE0099CE41 /* MTBaseModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTBaseModel.h; sourceTree = "<group>"; };
+		FABE8146205EAACE0099CE41 /* MTBaseModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTBaseModel.m; sourceTree = "<group>"; };
+		FABE8148205EAB100099CE41 /* IntegralModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IntegralModel.h; sourceTree = "<group>"; };
+		FABE8149205EAB100099CE41 /* IntegralModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IntegralModel.m; sourceTree = "<group>"; };
+		FABE814B205EAED40099CE41 /* IntegDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IntegDetailViewController.h; sourceTree = "<group>"; };
+		FABE814C205EAED40099CE41 /* IntegDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IntegDetailViewController.m; sourceTree = "<group>"; };
+		FABE814E205EB5AA0099CE41 /* CashPaymentViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CashPaymentViewController.h; sourceTree = "<group>"; };
+		FABE814F205EB5AA0099CE41 /* CashPaymentViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CashPaymentViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +233,8 @@
 		FA0072A420590C930059F443 /* MarketingTreasure */ = {
 			isa = PBXGroup;
 			children = (
+				FA0072DC205915F20059F443 /* Common */,
+				FA0072D72059154C0059F443 /* HomeViewController */,
 				FA0072A520590C930059F443 /* AppDelegate.h */,
 				FA0072A620590C930059F443 /* AppDelegate.m */,
 				FA0072A820590C930059F443 /* ViewController.h */,
@@ -130,6 +264,194 @@
 				FA0072CB20590C940059F443 /* Info.plist */,
 			);
 			path = MarketingTreasureUITests;
+			sourceTree = "<group>";
+		};
+		FA0072D72059154C0059F443 /* HomeViewController */ = {
+			isa = PBXGroup;
+			children = (
+				FABE810E205D15EA0099CE41 /* My */,
+				FA5A235E205B8EAB00F29764 /* Order */,
+				FA5A234E205B8DDC00F29764 /* Home */,
+				FA5A2353205B8DDC00F29764 /* Prepaid */,
+				FA0072DB205915EA0059F443 /* View */,
+				FA00730220595D5D0059F443 /* Activity */,
+			);
+			path = HomeViewController;
+			sourceTree = "<group>";
+		};
+		FA0072DB205915EA0059F443 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FA0072DC205915F20059F443 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				FABE8145205EAACE0099CE41 /* MTBaseModel.h */,
+				FABE8146205EAACE0099CE41 /* MTBaseModel.m */,
+				FABE811D205DFC260099CE41 /* UIView+UIViewController.h */,
+				FABE811C205DFC260099CE41 /* UIView+UIViewController.m */,
+				FA0072FF205959190059F443 /* NSString+StringHeight.h */,
+				FA007300205959190059F443 /* NSString+StringHeight.m */,
+				FA0072E8205946800059F443 /* SDCycleScrollView */,
+				FA0072E4205918B10059F443 /* UIView+Extension.h */,
+				FA0072E5205918B10059F443 /* UIView+Extension.m */,
+				FA0072E2205917AE0059F443 /* UIColor+ZSKNColor.h */,
+				FA0072E1205917AE0059F443 /* UIColor+ZSKNColor.m */,
+				FA0072DD205916650059F443 /* MarketingNavigationView.h */,
+				FA0072DE205916650059F443 /* MarketingNavigationView.m */,
+				FA0072E720591AC20059F443 /* Header.h */,
+				FA0072E0205917150059F443 /* PrefixHeader.pch */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		FA0072E8205946800059F443 /* SDCycleScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				FA0072E9205946800059F443 /* UIView+SDExtension.h */,
+				FA0072EA205946800059F443 /* SDCycleScrollView.h */,
+				FA0072EB205946800059F443 /* SDCollectionViewCell.h */,
+				FA0072EC205946800059F443 /* SDCycleScrollView.m */,
+				FA0072ED205946800059F443 /* UIView+SDExtension.m */,
+				FA0072EE205946800059F443 /* SDCollectionViewCell.m */,
+				FA0072EF205946800059F443 /* PageControl */,
+			);
+			path = SDCycleScrollView;
+			sourceTree = "<group>";
+		};
+		FA0072EF205946800059F443 /* PageControl */ = {
+			isa = PBXGroup;
+			children = (
+				FA0072F0205946800059F443 /* TAAbstractDotView.h */,
+				FA0072F1205946800059F443 /* TADotView.m */,
+				FA0072F2205946800059F443 /* TAPageControl.m */,
+				FA0072F3205946800059F443 /* TAAnimatedDotView.m */,
+				FA0072F4205946800059F443 /* TAAbstractDotView.m */,
+				FA0072F5205946800059F443 /* TADotView.h */,
+				FA0072F6205946800059F443 /* TAAnimatedDotView.h */,
+				FA0072F7205946800059F443 /* TAPageControl.h */,
+			);
+			path = PageControl;
+			sourceTree = "<group>";
+		};
+		FA00730220595D5D0059F443 /* Activity */ = {
+			isa = PBXGroup;
+			children = (
+				FA00730320595D790059F443 /* ActivityViewController.h */,
+				FA00730420595D790059F443 /* ActivityViewController.m */,
+				FA1D30E1205AAE16001D447D /* GiftViewController.h */,
+				FA1D30E2205AAE16001D447D /* GiftViewController.m */,
+				FA0073092059703A0059F443 /* GetFinishViewController.h */,
+				FA00730A2059703A0059F443 /* GetFinishViewController.m */,
+			);
+			path = Activity;
+			sourceTree = "<group>";
+		};
+		FA5A234E205B8DDC00F29764 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				FA5A2351205B8DDC00F29764 /* HomeViewController.h */,
+				FA5A2350205B8DDC00F29764 /* HomeViewController.m */,
+				FA5A2365205B914800F29764 /* MTBaseViewController.h */,
+				FA5A2366205B914800F29764 /* MTBaseViewController.m */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		FA5A2353205B8DDC00F29764 /* Prepaid */ = {
+			isa = PBXGroup;
+			children = (
+				FA5A2354205B8DDC00F29764 /* PrepaidViewController.h */,
+				FA5A2357205B8DDC00F29764 /* PrepaidViewController.m */,
+				FA5A2358205B8DDC00F29764 /* TestTableViewCell.h */,
+				FA5A2356205B8DDC00F29764 /* TestTableViewCell.m */,
+				FA5A2355205B8DDC00F29764 /* TestTableViewCell.xib */,
+			);
+			path = Prepaid;
+			sourceTree = "<group>";
+		};
+		FA5A235E205B8EAB00F29764 /* Order */ = {
+			isa = PBXGroup;
+			children = (
+				FA5A2368205B91AC00F29764 /* OrderViewController.h */,
+				FA5A2369205B91AC00F29764 /* OrderViewController.m */,
+				FA95BA6C205CF1D500D19EDA /* OrderTableViewCell.h */,
+				FA95BA6D205CF1D500D19EDA /* OrderTableViewCell.m */,
+				FA95BA6E205CF1D500D19EDA /* OrderTableViewCell.xib */,
+				FABE8106205D0D8F0099CE41 /* OrderDetailViewController.h */,
+				FABE8107205D0D8F0099CE41 /* OrderDetailViewController.m */,
+				FABE8109205D0E450099CE41 /* OrderDetailTableViewCell.h */,
+				FABE810A205D0E450099CE41 /* OrderDetailTableViewCell.m */,
+				FABE810B205D0E450099CE41 /* OrderDetailTableViewCell.xib */,
+			);
+			path = Order;
+			sourceTree = "<group>";
+		};
+		FABE810E205D15EA0099CE41 /* My */ = {
+			isa = PBXGroup;
+			children = (
+				FABE8139205EA85F0099CE41 /* Integral */,
+				FABE8130205E1D050099CE41 /* Privilege */,
+				FABE811F205E00120099CE41 /* Pay */,
+				FABE810F205D160B0099CE41 /* MyViewController.h */,
+				FABE8110205D160B0099CE41 /* MyViewController.m */,
+				FABE8114205D17B10099CE41 /* MyTopView.h */,
+				FABE8115205D17B10099CE41 /* MyTopView.m */,
+				FABE8117205D17BE0099CE41 /* MyTopView.xib */,
+			);
+			path = My;
+			sourceTree = "<group>";
+		};
+		FABE811F205E00120099CE41 /* Pay */ = {
+			isa = PBXGroup;
+			children = (
+				FABE8119205DFA8E0099CE41 /* PaymentCodeViewController.h */,
+				FABE811A205DFA8E0099CE41 /* PaymentCodeViewController.m */,
+				FABE8120205E003B0099CE41 /* PayRecordsViewController.h */,
+				FABE8121205E003B0099CE41 /* PayRecordsViewController.m */,
+				FABE8123205E01C80099CE41 /* PayRecordsTableViewCell.h */,
+				FABE8124205E01C80099CE41 /* PayRecordsTableViewCell.m */,
+				FABE8125205E01C80099CE41 /* PayRecordsTableViewCell.xib */,
+				FABE8128205E09D40099CE41 /* CouponsViewController.h */,
+				FABE8129205E09D40099CE41 /* CouponsViewController.m */,
+				FABE812B205E0B180099CE41 /* CouponsTableViewCell.h */,
+				FABE812C205E0B180099CE41 /* CouponsTableViewCell.m */,
+				FABE812D205E0B180099CE41 /* CouponsTableViewCell.xib */,
+			);
+			path = Pay;
+			sourceTree = "<group>";
+		};
+		FABE8130205E1D050099CE41 /* Privilege */ = {
+			isa = PBXGroup;
+			children = (
+				FABE8131205E1D2C0099CE41 /* MyPrivilegeViewController.h */,
+				FABE8132205E1D2C0099CE41 /* MyPrivilegeViewController.m */,
+				FABE8134205E1DED0099CE41 /* MyPrivilegeTableViewCell.h */,
+				FABE8135205E1DED0099CE41 /* MyPrivilegeTableViewCell.m */,
+				FABE8136205E1DED0099CE41 /* MyPrivilegeTableViewCell.xib */,
+			);
+			path = Privilege;
+			sourceTree = "<group>";
+		};
+		FABE8139205EA85F0099CE41 /* Integral */ = {
+			isa = PBXGroup;
+			children = (
+				FABE813A205EA87A0099CE41 /* IntegralViewController.h */,
+				FABE813B205EA87A0099CE41 /* IntegralViewController.m */,
+				FABE813D205EA8950099CE41 /* IntegralTableViewCell.h */,
+				FABE813E205EA8950099CE41 /* IntegralTableViewCell.m */,
+				FABE813F205EA8950099CE41 /* IntegralTableViewCell.xib */,
+				FABE8148205EAB100099CE41 /* IntegralModel.h */,
+				FABE8149205EAB100099CE41 /* IntegralModel.m */,
+				FABE814B205EAED40099CE41 /* IntegDetailViewController.h */,
+				FABE814C205EAED40099CE41 /* IntegDetailViewController.m */,
+				FABE814E205EB5AA0099CE41 /* CashPaymentViewController.h */,
+				FABE814F205EB5AA0099CE41 /* CashPaymentViewController.m */,
+			);
+			path = Integral;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -238,9 +560,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FABE8105205D01C50099CE41 /* OrderTableViewCell.xib in Resources */,
+				FABE8118205D17BE0099CE41 /* MyTopView.xib in Resources */,
 				FA0072B220590C930059F443 /* LaunchScreen.storyboard in Resources */,
+				FABE8138205E1DED0099CE41 /* MyPrivilegeTableViewCell.xib in Resources */,
+				FABE8127205E01C80099CE41 /* PayRecordsTableViewCell.xib in Resources */,
 				FA0072AF20590C930059F443 /* Assets.xcassets in Resources */,
+				FABE8141205EA8950099CE41 /* IntegralTableViewCell.xib in Resources */,
+				FA5A235B205B8DDC00F29764 /* TestTableViewCell.xib in Resources */,
+				FABE812F205E0B180099CE41 /* CouponsTableViewCell.xib in Resources */,
 				FA0072AD20590C930059F443 /* Main.storyboard in Resources */,
+				FABE810D205D0E450099CE41 /* OrderDetailTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,9 +595,47 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FABE813C205EA87A0099CE41 /* IntegralViewController.m in Sources */,
+				FABE8104205D01BB0099CE41 /* OrderViewController.m in Sources */,
+				FABE8103205D01AF0099CE41 /* OrderTableViewCell.m in Sources */,
+				FA00730B2059703A0059F443 /* GetFinishViewController.m in Sources */,
+				FA0072DF205916650059F443 /* MarketingNavigationView.m in Sources */,
+				FABE811E205DFC260099CE41 /* UIView+UIViewController.m in Sources */,
 				FA0072AA20590C930059F443 /* ViewController.m in Sources */,
+				FA5A2359205B8DDC00F29764 /* HomeViewController.m in Sources */,
 				FA0072B520590C930059F443 /* main.m in Sources */,
+				FA5A235C205B8DDC00F29764 /* TestTableViewCell.m in Sources */,
+				FA0072FE205946800059F443 /* TAAbstractDotView.m in Sources */,
+				FA0072FA205946800059F443 /* SDCollectionViewCell.m in Sources */,
+				FABE811B205DFA8E0099CE41 /* PaymentCodeViewController.m in Sources */,
+				FABE8140205EA8950099CE41 /* IntegralTableViewCell.m in Sources */,
+				FA0073012059591A0059F443 /* NSString+StringHeight.m in Sources */,
+				FABE8116205D17B10099CE41 /* MyTopView.m in Sources */,
+				FABE8150205EB5AA0099CE41 /* CashPaymentViewController.m in Sources */,
+				FABE8133205E1D2C0099CE41 /* MyPrivilegeViewController.m in Sources */,
+				FABE810C205D0E450099CE41 /* OrderDetailTableViewCell.m in Sources */,
+				FABE8112205D160B0099CE41 /* MyViewController.m in Sources */,
+				FA0072E6205918B10059F443 /* UIView+Extension.m in Sources */,
+				FABE8108205D0D8F0099CE41 /* OrderDetailViewController.m in Sources */,
+				FA0072FC205946800059F443 /* TAPageControl.m in Sources */,
+				FA0072F9205946800059F443 /* UIView+SDExtension.m in Sources */,
 				FA0072A720590C930059F443 /* AppDelegate.m in Sources */,
+				FA5A235D205B8DDC00F29764 /* PrepaidViewController.m in Sources */,
+				FA1D30E3205AAE16001D447D /* GiftViewController.m in Sources */,
+				FA5A2367205B914800F29764 /* MTBaseViewController.m in Sources */,
+				FABE812A205E09D40099CE41 /* CouponsViewController.m in Sources */,
+				FABE8147205EAACE0099CE41 /* MTBaseModel.m in Sources */,
+				FA0072FD205946800059F443 /* TAAnimatedDotView.m in Sources */,
+				FA0072FB205946800059F443 /* TADotView.m in Sources */,
+				FABE814D205EAED40099CE41 /* IntegDetailViewController.m in Sources */,
+				FABE812E205E0B180099CE41 /* CouponsTableViewCell.m in Sources */,
+				FABE8122205E003B0099CE41 /* PayRecordsViewController.m in Sources */,
+				FA0072E3205917AF0059F443 /* UIColor+ZSKNColor.m in Sources */,
+				FABE814A205EAB100099CE41 /* IntegralModel.m in Sources */,
+				FABE8137205E1DED0099CE41 /* MyPrivilegeTableViewCell.m in Sources */,
+				FA0072F8205946800059F443 /* SDCycleScrollView.m in Sources */,
+				FABE8126205E01C80099CE41 /* PayRecordsTableViewCell.m in Sources */,
+				FA00730520595D790059F443 /* ActivityViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -431,11 +799,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = /Users/hanwenguang/Desktop/11111/MarketingTreasure/MarketingTreasure/Common/PrefixHeader.pch;
 				INFOPLIST_FILE = MarketingTreasure/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "-.MarketingTreasure";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -444,11 +813,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = /Users/hanwenguang/Desktop/11111/MarketingTreasure/MarketingTreasure/Common/PrefixHeader.pch;
 				INFOPLIST_FILE = MarketingTreasure/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "-.MarketingTreasure";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
