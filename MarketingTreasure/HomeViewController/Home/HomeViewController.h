@@ -10,4 +10,6 @@
 
 @interface HomeViewController : MTBaseViewController
 
+@property (nonatomic, strong) NSString *oldOrNewUser;
+
 @end

@@ -12,7 +12,7 @@
 {
     CGFloat _maxViewY;
     
-    
+    UIView *_BGView;
 }
 @property (nonatomic, strong) UITableView *tableView;
 
@@ -39,7 +39,9 @@ CGFloat _imgHeight = 0;
     [self scrollViewTopView];
     [self setFourBtn];
     [self setTableViewAction];
-    
+    if ([self.oldOrNewUser integerValue] == 0) {
+        [self setImgView];
+    }
 }
 
 - (void)setNavigation {
@@ -52,6 +54,38 @@ CGFloat _imgHeight = 0;
         [weakSelf backAction];
         
     }];
+}
+
+- (void)setImgView {
+    
+    UIView *view = [[UIView alloc] initWithFrame:CGRectMake(0, 0, kScreenWidth, kScreenHeight)];
+    _BGView = view;
+    view.backgroundColor = [UIColor colorWithHexString:@"000000" withAlpha:0.5];
+    [self.view addSubview:view];
+    UIImage *img = [UIImage imageNamed:@"u142"];
+    CGFloat imgH = 0;
+    imgH = img.size.height * (float)(img.size.width / (kScreenWidth - 40));
+    UIImageView *imgView = [[UIImageView alloc] initWithFrame:CGRectMake(20.0, 0, (kScreenWidth - 40), imgH)];
+    
+    imgView.userInteractionEnabled = YES;
+    imgView.centerY = self.view.centerY - 30;
+    imgView.image = img;
+    imgView.backgroundColor = [UIColor clearColor];
+    [view addSubview:imgView];
+    
+    UIImage *imgClose = [UIImage imageNamed:@"u148"];
+    UIButton *closeBtn = [UIButton buttonWithType:UIButtonTypeCustom];
+    closeBtn.frame = CGRectMake(imgView.width - 35, 5, 30, 30);
+    [closeBtn setImage:imgClose forState:(UIControlStateNormal)];
+    [closeBtn addTarget:self action:@selector(closeAction) forControlEvents:(UIControlEventTouchUpInside)];
+    [imgView addSubview:closeBtn];
+    
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(5 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+        [view removeFromSuperview];
+    });
+}
+- (void)closeAction {
+    [_BGView removeFromSuperview];
 }
 
 - (void)scrollViewTopView {

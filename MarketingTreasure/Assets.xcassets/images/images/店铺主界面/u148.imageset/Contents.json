@@ -2,7 +2,6 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "关闭_u148.png",
       "scale" : "1x"
     },
     {
@@ -15,6 +14,7 @@
     },
     {
       "idiom" : "iphone",
+      "filename" : "u148.png",
       "scale" : "1x"
     },
     {
