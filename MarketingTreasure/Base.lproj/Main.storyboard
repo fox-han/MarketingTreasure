@@ -24,7 +24,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="m6D-FQ-fjo" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1287" y="177"/>
+            <point key="canvasLocation" x="-1257" y="-33"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -35,7 +35,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RZH-go-oko">
-                                <rect key="frame" x="86" y="218" width="200" height="136"/>
+                                <rect key="frame" x="86" y="94" width="200" height="136"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="200" id="5M4-38-FuS"/>
                                     <constraint firstAttribute="height" constant="136" id="Unh-zG-pdD"/>
@@ -45,11 +45,104 @@
                                     <action selector="homeVCAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Myh-7y-vAi"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V5F-rC-7Hr">
+                                <rect key="frame" x="16" y="270" width="343" height="37"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="37" id="cri-H1-VHU"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <state key="normal" title="新客">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="newUser:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Uhc-as-zBL"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Oqe-10-Kje">
+                                <rect key="frame" x="16" y="326" width="343" height="37"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="37" id="Yzo-7W-NLD"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <state key="normal" title="老客(未办卡)">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="oldNoCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Qhm-WY-Yhu"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Oer-u1-fPe">
+                                <rect key="frame" x="16" y="383" width="343" height="33"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <state key="normal" title="老客(办卡未分期)">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="olduserInstallmentNo:" destination="BYZ-38-t0r" eventType="touchUpInside" id="efC-1u-3lV"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qW5-RR-JOk">
+                                <rect key="frame" x="16" y="436" width="343" height="37"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="37" id="URS-0r-HzD"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <state key="normal" title="老客(办卡已分期)">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="olduserInstallmented:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aEj-Vi-vNk"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pbI-MX-MJV">
+                                <rect key="frame" x="16" y="493" width="343" height="37"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="37" id="ZLc-Jl-hxa"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <state key="normal" title="老客(办卡未分期)即将到期">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="olduserDue:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6sQ-5U-hrf"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YwL-il-KAD">
+                                <rect key="frame" x="16" y="550" width="343" height="37"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="37" id="tFp-DQ-Fxp"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <state key="normal" title="老客(办卡已分期)即将到期">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="olduserDueToHasIn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hBJ-e1-N5k"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="V5F-rC-7Hr" secondAttribute="trailing" constant="16" id="3b6-4o-dtp"/>
+                            <constraint firstItem="V5F-rC-7Hr" firstAttribute="top" secondItem="RZH-go-oko" secondAttribute="bottom" constant="40" id="3y4-iI-e0P"/>
+                            <constraint firstItem="Oer-u1-fPe" firstAttribute="top" secondItem="Oqe-10-Kje" secondAttribute="bottom" constant="20" id="5I1-Pr-qb6"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Oer-u1-fPe" secondAttribute="trailing" constant="16" id="6Yq-Yq-2gp"/>
+                            <constraint firstItem="YwL-il-KAD" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="6mr-gu-pzF"/>
+                            <constraint firstItem="RZH-go-oko" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="30" id="BLr-ED-njW"/>
+                            <constraint firstItem="pbI-MX-MJV" firstAttribute="top" secondItem="qW5-RR-JOk" secondAttribute="bottom" constant="20" id="HNn-R2-lF3"/>
                             <constraint firstItem="RZH-go-oko" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="86" id="MgK-8Q-zNz"/>
-                            <constraint firstItem="RZH-go-oko" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="154" id="chE-H8-zPf"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="YwL-il-KAD" secondAttribute="trailing" constant="16" id="Rmq-0K-SYm"/>
+                            <constraint firstItem="YwL-il-KAD" firstAttribute="top" secondItem="pbI-MX-MJV" secondAttribute="bottom" constant="20" id="Uay-nO-yTK"/>
+                            <constraint firstItem="qW5-RR-JOk" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="XO7-jp-MYZ"/>
+                            <constraint firstItem="pbI-MX-MJV" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="b3A-Io-hhq"/>
+                            <constraint firstItem="qW5-RR-JOk" firstAttribute="top" secondItem="Oer-u1-fPe" secondAttribute="bottom" constant="20" id="bca-Xx-qZw"/>
+                            <constraint firstItem="Oqe-10-Kje" firstAttribute="top" secondItem="V5F-rC-7Hr" secondAttribute="bottom" constant="19" id="e3L-kQ-Bqv"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Oqe-10-Kje" secondAttribute="trailing" constant="16" id="oto-k2-8sY"/>
+                            <constraint firstItem="Oqe-10-Kje" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="q0e-aP-rV5"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="qW5-RR-JOk" secondAttribute="trailing" constant="16" id="sTN-n3-1E2"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="pbI-MX-MJV" secondAttribute="trailing" constant="16" id="tcn-2v-Iit"/>
+                            <constraint firstItem="V5F-rC-7Hr" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="uUu-vr-LyU"/>
+                            <constraint firstItem="Oer-u1-fPe" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="v0l-vA-vm6"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
@@ -57,7 +150,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-262" y="-32"/>
+            <point key="canvasLocation" x="-263.19999999999999" y="-32.833583208395808"/>
         </scene>
     </scenes>
     <resources>

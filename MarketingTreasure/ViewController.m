@@ -29,6 +29,31 @@
     
 }
 
+- (IBAction)newUser:(id)sender {
+    // 新客
+}
+- (IBAction)oldNoCard:(id)sender {
+    // 老客（未办卡）
+}
+
+- (IBAction)olduserInstallmentNo:(id)sender {
+    // 老客（办卡未分期
+}
+
+- (IBAction)olduserInstallmented:(id)sender {
+    // 老客（办卡已分期）
+}
+- (IBAction)olduserDue:(id)sender {
+    // 老客（办卡未分期）即将到期
+}
+
+- (IBAction)olduserDueToHasIn:(id)sender {
+    // 老客（办卡已分期）即将到期
+}
+
+
+
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
